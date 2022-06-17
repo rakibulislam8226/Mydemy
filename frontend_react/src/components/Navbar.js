@@ -27,6 +27,26 @@ function Navbar() {
 
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Teacher
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li className="nav-item">
+                  <Link className="dropdown-item" to="/Teacher_Login">Teacher Login</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="dropdown-item" to="/Teacher_register">Register</Link>
+                </li> 
+                <li className="nav-item">
+                  <Link className="dropdown-item" to="/teacher_dashboard">Dashboard</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="dropdown-item" to="#">Logout</Link>
+                </li>
+              </ul>
+            </li>
+
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 User
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">

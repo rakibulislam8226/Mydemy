@@ -7,9 +7,9 @@ function Home() {
         {/* start latest courses  */}
         <h3 className="my-4 pb-1">
           Latest Courses{" "}
-          <a href="#" className="float-end">
+          <Link to="./AllCourses" className="float-end">
             See all
-          </a>
+          </Link>
         </h3>
         <div className="col-md-3">
           <div className="card my-1">
@@ -56,14 +56,14 @@ function Home() {
         {/* start popular courses  */}
         <h3 className="mb-4 mt-5 pb-1">
           Popular Courses
-          <a href="#" className="float-end">
+          <Link to="/popular-courses" className="float-end">
             See all
-          </a>
+          </Link>
         </h3>
         <div className="col-md-3">
           <div className="card my-1">
             <a href="#">
-              <img src="logo512.png" class="card-img-top" alt="..." />
+              <img src="python.png" class="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="#">Details</a>
@@ -73,7 +73,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card my-1">
             <a href="#">
-              <img src="logo512.png" class="card-img-top" alt="..." />
+              <img src="python.png" class="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="#">Details</a>
@@ -83,7 +83,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card my-1">
             <a href="#">
-              <img src="logo512.png" class="card-img-top" alt="..." />
+              <img src="python.png" class="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="#">Details</a>
@@ -93,7 +93,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card my-1">
             <a href="#">
-              <img src="logo512.png" class="card-img-top" alt="..." />
+              <img src="python.png" class="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="#">Details</a>
@@ -101,15 +101,62 @@ function Home() {
           </div>
         </div>
         {/* end popular courses  */}
+        {/* start popular teacher  */}
+        <h3 className="mb-4 mt-5 pb-1">
+          Popular Teacher
+          <Link to="/popular-teacher" className="float-end">
+            See all
+          </Link>
+        </h3>
+        <div className="col-md-3">
+          <div className="card my-1">
+            <a href="#">
+              <img src="teacher.png" class="card-img-top" alt="..." />
+            </a>
+            <div className="card-body">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card my-1">
+            <a href="#">
+              <img src="teacher.png" class="card-img-top" alt="..." />
+            </a>
+            <div className="card-body">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card my-1">
+            <a href="#">
+              <img src="teacher.png" class="card-img-top" alt="..." />
+            </a>
+            <div className="card-body">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card my-1">
+            <a href="#">
+              <img src="teacher.png" class="card-img-top" alt="..." />
+            </a>
+            <div className="card-body">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+        {/* start popular teacher  */}
 
-        {/* start popular courses  */}
-        <h3 className="mb-4 mt-5 pb-1">Teacher Testimonial</h3>
+        {/* start teacher testimonial  */}
+        <h3 className="mb-5 mt-5 pb-1">Teacher Testimonial</h3>
         <div
           id="carouselExampleIndicators"
           className="carousel slide bg-black"
-          data-ride="carousel"
+          data-ride="carousel">
 
-        >
           <ol className="carousel-indicators">
             <li
               data-target="#carouselExampleIndicators"
